@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/full-stack-alvaro/static/css/main.85a61cf7.css",
+    "main.js": "/full-stack-alvaro/static/js/main.e7cc69bf.js",
+    "index.html": "/full-stack-alvaro/index.html",
+    "main.85a61cf7.css.map": "/full-stack-alvaro/static/css/main.85a61cf7.css.map",
+    "main.e7cc69bf.js.map": "/full-stack-alvaro/static/js/main.e7cc69bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85a61cf7.css",
+    "static/js/main.e7cc69bf.js"
+  ]
+}
