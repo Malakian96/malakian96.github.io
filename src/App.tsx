@@ -1,20 +1,20 @@
-import React from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import './App.css';
+// App.tsx
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { ColorContext } from "./contexts/ColotContext";
+import { ThemeProvider } from "@mui/material/styles";
+import AppRoutes from "./routes/AppRoutes";
 
 const App: React.FC = () => {
+  const theme = React.useContext(ColorContext);
+
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
       <Header />
-      <About />
-      <Projects />
-      <Contact />
+      <AppRoutes />
       <Footer />
-    </div>
+    </ThemeProvider>
   );
 };
 
